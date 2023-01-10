@@ -93,7 +93,8 @@ h3 {
 }
 
 #katzen {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .img2 {
@@ -156,6 +157,10 @@ h3 {
     #alles {
         flex-direction: column;
         width: 800px;
+    }
+
+    #katzen {
+        grid-template-columns: 1fr;
     }
 
     #links a {
