@@ -7,11 +7,11 @@ let sources = [
     "./bilder/img6.jpg"
 ];
 
-document.images[2].style="width:30rem; box-shadow: 0 0 5rem white; border-radius:8px";
-document.images[1].style="width:20rem; opacity: 0.4; margin-top:4%; border-radius:8px";
-document.images[3].style="width:20rem; opacity: 0.4; border-radius:8px";
-document.images[0].style="width:10rem; opacity: 0.2; border-radius:8px";
-document.images[4].style="width:10rem; opacity: 0.2; border-radius:8px";
+document.images[2].style="width:23rem; box-shadow: 0 0 5rem white; border-radius:8px";
+document.images[1].style="width:18rem; opacity: 0.4; margin-top:4%; border-radius:8px";
+document.images[3].style="width:18rem; opacity: 0.4; border-radius:8px";
+document.images[0].style="width:8rem; opacity: 0.2; border-radius:8px";
+document.images[4].style="width:8rem; opacity: 0.2; border-radius:8px";
 
 let images = document.getElementsByClassName('img');
 let currentIndex = 0;

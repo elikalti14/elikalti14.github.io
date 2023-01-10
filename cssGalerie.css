@@ -45,20 +45,16 @@ h2 {
 }
 
 li {
-    margin-left: 5rem;
+    margin-left: 1rem;
     font-size: 20px;
-}
-
-.link1 {
-    margin-left: 17.5rem;
 }
 
 #links a {
     color: black;
     padding: 14px 30px;
     text-decoration: none;
-    text-align: center;
     font-weight: bolder;
+    font-size: 25px;
 }
 
 h1 {
@@ -99,8 +95,7 @@ h3 {
 
 .img2 {
     border-radius: 15px;
-    width: 25rem;
-    transition: 1s;
+    width: 100%;
 }
 
 #right {
@@ -142,16 +137,30 @@ h3 {
     text-align: center;
 }
 
-@media screen and(max-width: 800px) {
-    .link1 {
+@media only screen and (max-width: 600px) {
+    #links {
         display: block;
+    }
+
+    #links a {
+        display: block;
+    }
+
+    #tipps {
+        width: 17.3rem;
+    }
+
+    #bild {
+        width: 17.3rem;
     }
 
     .img {
         display: block;
     }
+    
     .img2 {
-        display: block;
+        width: 100%;
+        margin-top: 1rem;
     }
    
     #alles {
@@ -161,13 +170,5 @@ h3 {
 
     #katzen {
         grid-template-columns: 1fr;
-    }
-
-    #links a {
-        display: block;
-    }
-
-    #all {
-        display: none;
     }
 }
